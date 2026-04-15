@@ -4,10 +4,13 @@ import './index.css'
 import App from './App.jsx'
 import { RouterProvider } from 'react-router'
 import { router } from './Router/Router.jsx'
+import Contexts from './Contexts/Contexts.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}>
-    </RouterProvider>
+    <Contexts>
+      <RouterProvider router={router}>
+      </RouterProvider>
+    </Contexts>
   </StrictMode>,
 )
