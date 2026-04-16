@@ -1,13 +1,9 @@
-import React, { useContext } from 'react';
-import { StateProviderContext } from '../../Contexts/Contexts';
+import Navbar from '../Navbar.jsx/Navbar';
 
 const Home = () => {
-    const {data, setData} = useContext(StateProviderContext)
-    console.log(data)
     return (
         <div>
-            <h1>this is home page</h1>
-            
+            <h1>hi this is home</h1>
         </div>
     );
 };

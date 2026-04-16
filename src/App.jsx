@@ -1,9 +1,13 @@
+
+import { Outlet } from 'react-router'
 import './App.css'
+import Navbar from './components/Navbar.jsx/Navbar'
 function App() {
 
   return (
     <div>
-      <button className='btn'>click me</button>
+      <Navbar/>
+      <Outlet/>
     </div>
   )
 }
