@@ -8,8 +8,8 @@ const FriendCard = ({friend}) => {
     }
     console.log(friend)
     return (
-        <div onClick={handelFrinedDetails} className='card bg-white py-4 cursor-pointer text-center'>
-            <img src={friend.picture} className='max-w-25 rounded-full mx-auto border border-success hover:border-2 duration-1000' alt="" />
+        <div onClick={handelFrinedDetails} className='card bg-white py-4 cursor-pointer text-center hover:scale-103 hover:-translate-y-1 duration-1000 shadow-2xl hover:shadow-amber-600'>
+            <img src={friend.picture} className='max-w-25 rounded-full mx-auto border border-success hover:border-2 duration-1000 hover:scale-104' alt="" />
             <h2 className='text-xl font-bold my-3'>{friend.name}</h2>
             <p>{friend.days_since_contact}d ago</p>
             <div className="flex justify-center gap-3">
