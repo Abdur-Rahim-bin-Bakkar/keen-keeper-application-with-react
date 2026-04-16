@@ -7,7 +7,7 @@ const Edit = ({friend}) => {
     const def = Math.floor((today- lastMeat ) / (1000 * 60 * 60 * 24))
     console.log(def)
     return (
-        <div className='card bg-white px-5 py-9 mt-5 h-45'>
+        <div className='card bg-white px-5 py-9 mt-5 md:h-45'>
             <div className="flex justify-between">
                 <h1 className='font-bold text-lg'>Relationship Goal</h1>
                 <button className='btn'>Edit</button>

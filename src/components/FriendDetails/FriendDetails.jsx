@@ -4,6 +4,7 @@ import FriendDetCard from './FriendDetCard';
 import Btns from './Btns';
 import ConnectionDet from './ConnectionDet';
 import Edit from './Edit';
+import Call from './Call';
 const data = fetch('/data.json')
     .then(res => res.json())
 
@@ -24,6 +25,7 @@ const FriendDetails = () => {
                     <div className="md:col-span-8">
                         <ConnectionDet friend={expectedFriend}  />
                         <Edit friend={expectedFriend} />
+                        <Call friend={expectedFriend}  />
                     </div>
                 </div>
             </div>
