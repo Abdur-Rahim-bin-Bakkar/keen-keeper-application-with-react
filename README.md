@@ -1,16 +1,63 @@
-# React + Vite
+# 🌟 KeenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Description
 
-Currently, two official plugins are available:
+KeenKeeper is a modern relationship management web app that helps users keep track of their friends, interactions, and connection status. It allows users to organize meaningful relationships, monitor engagement frequency, and ensure no important connection is neglected.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* ⚛️ React.js
+* ⚡ Next.js
+* 🎨 Tailwind CSS
+* 📊 Recharts (for data visualization)
+* 🔥 Context API (state management)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Key Features
+
+* 👥 **Friend Management System**
+  Add, categorize, and track your friends with tags like *school, office, gym, etc.*
+
+* 📈 **Interaction Tracking Dashboard**
+  View stats such as total friends, on-track relationships, and pending interactions.
+
+* 🔔 **Smart Status Indicators**
+  Easily identify which connections need attention, are overdue, or are on track.
+
+---
+
+## 📷 UI Preview
+
+A clean and responsive dashboard displaying:
+
+* Friend cards with profile, tags, and last interaction time
+* Summary stats (Total Friends, On Track, Need Attention, Interactions)
+* Status badges (On Track, Overdue, Almost Due)
+
+<p align="center">
+  <img src="./src/assets/wev.png" width="800" />
+</p>
+
+---
+
+## 💡 Purpose
+
+This project helps users maintain strong personal and professional relationships by visualizing and managing social interactions efficiently.
+
+---
+
+## 🛠️ Future Improvements
+
+* Authentication system
+* Notifications & reminders
+* Mobile app version
+* Advanced analytics
+
+---
+
+## 📬 Contact
+
+Feel free to connect and give feedback!
