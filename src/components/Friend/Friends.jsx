@@ -2,8 +2,6 @@ import React, { use } from 'react';
 import FriendCard from '../FriendCard.jsx/FriendCard';
 const data = fetch('/data.json')
                 .then(res => res.json())
-
-
 const Friends = () => {
     const friends = use(data)
     console.log(friends)
