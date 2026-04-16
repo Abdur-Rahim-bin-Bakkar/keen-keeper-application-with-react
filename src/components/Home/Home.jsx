@@ -1,9 +1,10 @@
+import Hero from '../Hero/Hero';
 import Navbar from '../Navbar.jsx/Navbar';
 
 const Home = () => {
     return (
-        <div>
-            <h1>hi this is home</h1>
+        <div className='bg-[#f8fafc]'>
+            <Hero/>
         </div>
     );
 };
